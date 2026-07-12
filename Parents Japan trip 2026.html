@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<title>谷川岳・苗場賞楓健走 2026｜爸媽的日本行程手冊</title>
+<meta name="description" content="2026 群馬谷川岳・新潟苗場賞楓健走六日團，整理每日行程、住宿、航班、費用與提醒，給爸媽方便手機查看的行程手冊。">
+<meta name="theme-color" content="#7A1F17">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8D%81%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;700;900&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F2ECDC;
+    --paper-deep:#E7DDC4;
+    --paper-line:#D9CCA9;
+    --ink:#2A241E;
+    --ink-soft:#5C5347;
+    --maple:#A32A1E;
+    --maple-deep:#7A1F17;
+    --gold:#B8842A;
+    --moss:#4B5842;
+    --night:#232B33;
+    --cream:#FBF6EC;
+    --radius:18px;
+    --maxw:760px;
+    font-size:17px;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif;
+    line-height:1.85;
+    -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3{
+    font-family:'Noto Serif TC','PMingLiU',serif;
+    line-height:1.4;
+    margin:0 0 .5em;
+    color:var(--ink);
+  }
+  p{margin:0 0 1em;}
+  a{color:var(--maple-deep);}
+  .container{max-width:var(--maxw);margin:0 auto;padding:0 22px;}
+  .eyebrow{
+    font-family:'Noto Sans TC',sans-serif;
+    font-size:.8rem;
+    letter-spacing:.12em;
+    font-weight:700;
+    color:var(--gold);
+    text-transform:uppercase;
+    margin-bottom:.6em;
+    display:block;
+  }
+
+  /* ---------- top nav ---------- */
+  .topnav{
+    position:sticky; top:0; z-index:50;
+    background:rgba(242,236,220,.92);
+    backdrop-filter:blur(6px);
+    border-bottom:1px solid var(--paper-line);
+    overflow-x:auto;
+    white-space:nowrap;
+    -ms-overflow-style:none; scrollbar-width:none;
+  }
+  .topnav::-webkit-scrollbar{display:none;}
+  .topnav__inner{display:flex; gap:6px; padding:10px 16px; max-width:var(--maxw); margin:0 auto;}
+  .topnav a{
+    flex:0 0 auto;
+    display:inline-block;
+    padding:8px 14px;
+    border-radius:999px;
+    font-size:.92rem;
+    font-weight:700;
+    color:var(--ink-soft);
+    text-decoration:none;
+    background:transparent;
+  }
+  .topnav a:hover{background:var(--paper-deep);}
+
+  /* ---------- hero ---------- */
+  .hero{
+    position:relative;
+    overflow:hidden;
+    background:linear-gradient(180deg,#1F2937 0%,#5A4038 32%,#9B5B3B 55%,#D9A256 76%,var(--paper) 100%);
+    padding:56px 0 0;
+  }
+  .hero__sun{
+    position:absolute; top:64px; right:14%;
+    width:74px; height:74px; border-radius:50%;
+    background:radial-gradient(circle at 35% 35%, #FFF4DA, #F0C878 55%, rgba(240,200,120,0) 75%);
+    box-shadow:0 0 60px 18px rgba(240,200,120,.25);
+  }
+  .hero__content{position:relative; z-index:5; padding:0 22px 40px; max-width:var(--maxw); margin:0 auto; color:var(--cream);}
+  .hero__content .eyebrow{color:#F0C878;}
+  .hero h1{
+    font-size:clamp(2.1rem, 8vw, 2.9rem);
+    font-weight:900;
+    color:#FBF6EC;
+    margin-bottom:.35em;
+  }
+  .hero__sub{font-size:1.08rem; color:#F2E4CE; max-width:34em; margin-bottom:1.5em;}
+  .hero__meta{
+    display:flex; flex-wrap:wrap; gap:10px 22px;
+    font-size:.95rem; color:#F2E4CE; margin-bottom:1.3em;
+  }
+  .hero__meta b{color:#FBF6EC;}
+  .hero__tags{display:flex; flex-wrap:wrap; gap:8px;}
+  .hero__tags span{
+    background:rgba(255,255,255,.14);
+    border:1px solid rgba(255,255,255,.28);
+    padding:6px 12px;
+    border-radius:999px;
+    font-size:.86rem;
+    color:#FBF6EC;
+  }
+  .hero__mountains{position:relative; height:150px; margin-top:26px;}
+  .mtn{position:absolute; left:0; right:0; bottom:0;}
+  .mtn-back{
+    height:130px;
+    background:#C9BFB6;
+    opacity:.55;
+    clip-path:polygon(0% 70%,9% 38%,22% 58%,38% 22%,53% 50%,68% 18%,84% 46%,100% 30%,100% 100%,0% 100%);
+  }
+  .mtn-mid{
+    height:120px;
+    background:linear-gradient(160deg,#C08A2E 0%, var(--maple) 55%, var(--maple-deep) 100%);
+    clip-path:polygon(0% 78%,12% 40%,30% 62%,46% 26%,61% 56%,79% 20%,92% 50%,100% 34%,100% 100%,0% 100%);
+  }
+  .mtn-front{
+    height:88px;
+    background:var(--moss);
+    clip-path:polygon(0% 62%,16% 34%,36% 54%,58% 24%,80% 50%,100% 30%,100% 100%,0% 100%);
+  }
+
+  /* ---------- section basics ---------- */
+  section{padding:52px 0;}
+  section + section{border-top:1px solid var(--paper-line);}
+  .section-title{font-size:clamp(1.4rem,5vw,1.75rem); font-weight:700;}
+  .section-lede{color:var(--ink-soft); margin-bottom:1.8em; max-width:40em;}
+
+  /* ---------- day snapshot grid ---------- */
+  .snap-grid{display:grid; grid-template-columns:1fr; gap:12px;}
+  .snap-card{
+    background:var(--paper-deep);
+    border-radius:var(--radius);
+    padding:16px 18px;
+    display:flex; align-items:center; gap:14px;
+  }
+  .snap-card__icon{font-size:1.6rem; flex:0 0 auto;}
+  .snap-card__day{font-size:.78rem; font-weight:700; color:var(--gold); letter-spacing:.06em;}
+  .snap-card__title{font-weight:700; margin:2px 0;}
+  .snap-card__note{font-size:.88rem; color:var(--ink-soft);}
+  .pace{
+    display:inline-block; font-size:.72rem; font-weight:700;
+    padding:2px 9px; border-radius:999px; color:#fff; margin-left:8px;
+    vertical-align:middle;
+  }
+  .pace--easy{background:var(--moss);}
+  .pace--mid{background:var(--gold);}
+  .pace--hard{background:var(--maple);}
+
+  /* ---------- highlight cards ---------- */
+  .hl-grid{display:grid; grid-template-columns:1fr; gap:14px;}
+  .hl-card{
+    background:var(--cream);
+    border:1px solid var(--paper-line);
+    border-radius:var(--radius);
+    padding:20px;
+  }
+  .hl-card__icon{font-size:1.7rem; margin-bottom:.4em; display:block;}
+  .hl-card h3{font-size:1.08rem; margin-bottom:.35em;}
+  .hl-card p{color:var(--ink-soft); font-size:.94rem; margin:0;}
+
+  /* ---------- itinerary timeline ---------- */
+  .timeline{position:relative; padding-left:0;}
+  .timeline::before{
+    content:'';
+    position:absolute; left:26px; top:8px; bottom:8px; width:4px;
+    background:linear-gradient(180deg, var(--moss) 0%, var(--gold) 20%, var(--maple) 42%, var(--gold) 62%, var(--gold) 80%, var(--moss) 100%);
+    border-radius:3px;
+  }
+  .day-card{position:relative; display:flex; gap:16px; margin-bottom:34px;}
+  .day-card:last-child{margin-bottom:0;}
+  .day-marker{
+    position:relative; z-index:2;
+    flex:0 0 52px; height:52px; border-radius:50%;
+    background:linear-gradient(155deg, var(--gold), var(--maple-deep));
+    color:#fff; display:flex; align-items:center; justify-content:center;
+    font-family:'Noto Serif TC',serif; font-weight:900; font-size:1.05rem;
+    box-shadow:0 3px 10px rgba(122,31,23,.25);
+  }
+  .day-content{flex:1; background:var(--cream); border:1px solid var(--paper-line); border-radius:var(--radius); padding:18px 20px; min-width:0;}
+  .day-date{font-size:.82rem; font-weight:700; color:var(--gold); letter-spacing:.04em;}
+  .day-content h3{font-size:1.14rem; margin:.2em 0 .55em;}
+  .day-meta{
+    display:flex; flex-wrap:wrap; gap:8px 16px;
+    font-size:.86rem; color:var(--ink-soft);
+    margin-bottom:.8em; padding-bottom:.8em;
+    border-bottom:1px dashed var(--paper-line);
+  }
+  .day-content p{font-size:.96rem; margin:0;}
+
+  /* ---------- stay ---------- */
+  .stay-grid{display:grid; grid-template-columns:1fr; gap:14px;}
+  .stay-card{background:var(--paper-deep); border-radius:var(--radius); padding:18px 20px;}
+  .stay-card__nights{font-size:.78rem; font-weight:700; color:var(--maple-deep); letter-spacing:.04em;}
+  .stay-card h3{font-size:1.05rem; margin:.25em 0 .4em;}
+  .stay-card p{font-size:.92rem; color:var(--ink-soft); margin:0 0 .6em;}
+  .maplink{
+    display:inline-flex; align-items:center; gap:5px;
+    font-size:.84rem; font-weight:700; text-decoration:none;
+    color:var(--maple-deep);
+  }
+  .maplink::after{content:'→';}
+
+  /* ---------- flight ---------- */
+  .flight-grid{display:grid; grid-template-columns:1fr; gap:14px;}
+  .flight-card{background:var(--cream); border:1px solid var(--paper-line); border-radius:var(--radius); padding:20px;}
+  .flight-card__label{font-size:.8rem; font-weight:700; color:var(--gold); letter-spacing:.06em; margin-bottom:.5em;}
+  .flight-route{display:flex; align-items:center; gap:14px; font-family:'Noto Serif TC',serif; font-weight:700; font-size:1.15rem; margin-bottom:.3em;}
+  .flight-route .arrow{color:var(--maple); font-weight:400;}
+  .flight-sub{font-size:.88rem; color:var(--ink-soft);}
+
+  /* ---------- cost ---------- */
+  .price-box{
+    background:linear-gradient(155deg, var(--maple), var(--maple-deep));
+    color:#FBF6EC; border-radius:var(--radius); padding:22px; margin-bottom:20px;
+  }
+  .price-box .amount{font-family:'Noto Serif TC',serif; font-size:1.9rem; font-weight:900;}
+  .price-box .note{font-size:.85rem; opacity:.9; margin-top:.4em;}
+  .cost-list{list-style:none; margin:0 0 1.4em; padding:0;}
+  .cost-list li{
+    padding:10px 0; border-bottom:1px dashed var(--paper-line);
+    font-size:.95rem; display:flex; justify-content:space-between; gap:12px;
+  }
+  .incl-grid{display:grid; grid-template-columns:1fr; gap:18px;}
+  .incl-grid h4{margin:0 0 .5em; font-size:1rem; font-family:'Noto Sans TC',sans-serif; font-weight:700;}
+  .incl-grid ul{margin:0; padding-left:1.2em; font-size:.92rem; color:var(--ink-soft);}
+  .incl-grid li{margin-bottom:.4em;}
+  .gift-box{background:var(--paper-deep); border-radius:var(--radius); padding:18px 20px; margin-top:20px; font-size:.92rem;}
+
+  /* ---------- notes ---------- */
+  .note-list{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:14px;}
+  .note-list li{
+    display:flex; gap:12px; align-items:flex-start;
+    background:var(--paper-deep); border-radius:14px; padding:14px 16px;
+    font-size:.94rem;
+  }
+  .note-list li .n-ic{flex:0 0 auto; font-size:1.15rem; line-height:1.5;}
+
+  /* ---------- footer ---------- */
+  footer{background:var(--night); color:#D9CFC0; padding:38px 0 50px;}
+  footer .container{font-size:.88rem;}
+  footer a{color:#F0C878;}
+  footer .foot-title{font-family:'Noto Serif TC',serif; color:#FBF6EC; font-size:1.2rem; margin-bottom:.4em;}
+  footer p{margin:0 0 .6em; color:#B9AF9E;}
+
+  @media (min-width:640px){
+    :root{font-size:17.5px;}
+    .snap-grid{grid-template-columns:1fr 1fr;}
+    .hl-grid{grid-template-columns:1fr 1fr;}
+    .stay-grid{grid-template-columns:1fr 1fr;}
+    .flight-grid{grid-template-columns:1fr 1fr;}
+    .incl-grid{grid-template-columns:1fr 1fr;}
+  }
+  @media (prefers-reduced-motion:reduce){
+    html{scroll-behavior:auto;}
+  }
+</style>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="topnav__inner">
+    <a href="#overview">總覽</a>
+    <a href="#highlights">亮點</a>
+    <a href="#itinerary">每日行程</a>
+    <a href="#stay">住宿</a>
+    <a href="#flight">航班</a>
+    <a href="#cost">費用</a>
+    <a href="#notes">提醒</a>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="hero__sun" aria-hidden="true"></div>
+  <div class="hero__content">
+    <span class="eyebrow">那米哥 NRT6C・爸媽的日本行程手冊</span>
+    <h1>谷川岳・苗場<br>賞楓大健走</h1>
+    <p class="hero__sub">群馬健走、三段纜車一路爬進楓紅深處，繞去清津峽和赤城山，最後泡進越後湯澤的溫泉裡。</p>
+    <div class="hero__meta">
+      <span>6天5夜</span>
+      <span>出發 <b><span data-day-offset="0"></span></b> → 回程 <b><span data-day-offset="5"></span></b></span>
+    </div>
+    <div class="hero__tags">
+      <span>🚡 三段纜車賞楓</span>
+      <span>♨️ 溫泉五晚</span>
+      <span>🍎 蘋果園採果</span>
+      <span>🎎 傳統技藝晚會</span>
+    </div>
+  </div>
+  <div class="hero__mountains" aria-hidden="true">
+    <div class="mtn mtn-back"></div>
+    <div class="mtn mtn-mid"></div>
+    <div class="mtn mtn-front"></div>
+  </div>
+</header>
+
+<main>
+
+  <section id="overview">
+    <div class="container">
+      <span class="eyebrow">Journey Overview</span>
+      <h2 class="section-title">一趟從平地慢慢走進楓紅深處的行程</h2>
+      <p class="section-lede">
+        前段在川越老街和果園裡放慢腳步，中段靠健走和三段不同的纜車爬上谷川岳、苗場高原，
+        順道繞去清津峽和赤城山，最後兩天回到東京，用庭園和市區血拼收尾。
+        體力最重的健走和纜車都排在中段狀態最好的時候，晚上都有溫泉可以泡，走起來會比較舒服。
+      </p>
+      <div class="snap-grid">
+        <div class="snap-card">
+          <div class="snap-card__icon">✈️</div>
+          <div>
+            <div class="snap-card__day">DAY 01 · <span data-day-offset="0"></span></div>
+            <div class="snap-card__title">抵達成田<span class="pace pace--easy">輕鬆</span></div>
+            <div class="snap-card__note">下飛機吃晚餐、早點休息</div>
+          </div>
+        </div>
+        <div class="snap-card">
+          <div class="snap-card__icon">🍎</div>
+          <div>
+            <div class="snap-card__day">DAY 02 · <span data-day-offset="1"></span></div>
+            <div class="snap-card__title">老街＋採果<span class="pace pace--mid">中等</span></div>
+            <div class="snap-card__note">川越老街到蘋果園，晚上換住溫泉飯店</div>
+          </div>
+        </div>
+        <div class="snap-card">
+          <div class="snap-card__icon">🥾</div>
+          <div>
+            <div class="snap-card__day">DAY 03 · <span data-day-offset="2"></span></div>
+            <div class="snap-card__title">谷川岳健走日<span class="pace pace--hard">較累</span></div>
+            <div class="snap-card__note">一之倉澤健走＋雙段纜車，這天最操</div>
+          </div>
+        </div>
+        <div class="snap-card">
+          <div class="snap-card__icon">🚡</div>
+          <div>
+            <div class="snap-card__day">DAY 04 · <span data-day-offset="3"></span></div>
+            <div class="snap-card__title">兩段纜車＋清津峽<span class="pace pace--mid">中等</span></div>
+            <div class="snap-card__note">幾乎都坐纜車，走路不多</div>
+          </div>
+        </div>
+        <div class="snap-card">
+          <div class="snap-card__icon">🏔️</div>
+          <div>
+            <div class="snap-card__day">DAY 05 · <span data-day-offset="4"></span></div>
+            <div class="snap-card__title">赤城山濕原<span class="pace pace--mid">中等</span></div>
+            <div class="snap-card__note">大沼、覺滿淵散步，晚上進東京</div>
+          </div>
+        </div>
+        <div class="snap-card">
+          <div class="snap-card__icon">🏯</div>
+          <div>
+            <div class="snap-card__day">DAY 06 · <span data-day-offset="5"></span></div>
+            <div class="snap-card__title">賞楓庭園回台<span class="pace pace--easy">輕鬆</span></div>
+            <div class="snap-card__note">小石川後樂園，下午飛回家</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="highlights">
+    <div class="container">
+      <span class="eyebrow">Journey Highlights</span>
+      <h2 class="section-title">整趟旅程最值得期待的畫面</h2>
+      <p class="section-lede">四段不一樣的賞楓方式：用腳走、用纜車爬、用木棧道慢慢晃，體驗不會太單一。</p>
+      <div class="hl-grid">
+        <div class="hl-card">
+          <span class="hl-card__icon">🪨</span>
+          <h3>一之倉澤健走</h3>
+          <p>日本三大岩場之一，來回步行約2小時、路況平緩好走，近距離仰望巨大斷崖，配上秋天楓紅特別震撼。</p>
+        </div>
+        <div class="hl-card">
+          <span class="hl-card__icon">🚡</span>
+          <h3>谷川岳雙段纜車</h3>
+          <p>廂型纜車轉乘吊椅式小纜車直上天神峠，360度俯瞰群山，山頂積雪、山腰楓紅、山腳新綠三層次同框。</p>
+        </div>
+        <div class="hl-card">
+          <span class="hl-card__icon">🚠</span>
+          <h3>苗場山龍纜車</h3>
+          <p>日本最長的纜車，全長5.5公里、空中漫步約25分鐘，再串上田代纜車，居高臨下俯瞰二居湖與谷川岳。</p>
+        </div>
+        <div class="hl-card">
+          <span class="hl-card__icon">🌈</span>
+          <h3>清津峽光之隧道</h3>
+          <p>日本三大峽谷之一，750公尺長的隧道藝術裝置，走到盡頭會利用水面倒影做出「天空之鏡」的效果。</p>
+        </div>
+        <div class="hl-card">
+          <span class="hl-card__icon">🏔️</span>
+          <h3>赤城山大沼・覺滿淵</h3>
+          <p>火口湖畔的赤城神社紅橋配楓葉很好拍，加上有「小尾瀨」之稱的高山濕原木棧道，繞一圈約30-40分鐘，全家都能走。</p>
+        </div>
+        <div class="hl-card">
+          <span class="hl-card__icon">🍎</span>
+          <h3>原田農園採蘋果</h3>
+          <p>群馬最大的觀光果園，10月正是蘋果產季，園內30分鐘吃到飽，離開前還能外帶兩顆走。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="itinerary">
+    <div class="container">
+      <span class="eyebrow">Day by Day</span>
+      <h2 class="section-title">每日行程</h2>
+      <p class="section-lede">左邊的顏色是體力節奏：綠色輕鬆、金色中等、紅色是這趟最操的健走日。</p>
+
+      <div class="timeline">
+
+        <div class="day-card">
+          <div class="day-marker">01</div>
+          <div class="day-content">
+            <div class="day-date"><span data-day-offset="0"></span></div>
+            <h3>桃園機場 → 東京成田機場 → 成田飯店</h3>
+            <div class="day-meta"><span>🍳 早餐：不供應</span><span>🍱 午餐：機上簡餐</span><span>🍽️ 晚餐：飯店自助餐</span><span>🏨 馬羅德國際飯店 或同級</span></div>
+            <p>中午搭乘國泰航空班機直飛成田，抵達後接往飯店，享用自助式晚餐，建議早點休息，為隔天的健走養精蓄銳。</p>
+          </div>
+        </div>
+
+        <div class="day-card">
+          <div class="day-marker">02</div>
+          <div class="day-content">
+            <div class="day-date"><span data-day-offset="1"></span></div>
+            <h3>飯店 → 小江戶川越老街 → 原田農園採蘋果 → 水上／苗場溫泉飯店</h3>
+            <div class="day-meta"><span>🍳 早餐：飯店內</span><span>🍱 午餐：上州豚肉鍋定食＋蘋果汁</span><span>🍽️ 晚餐：飯店百匯自助餐</span><span>🏨 苗場王子大飯店 或 源泉湯の宿 松乃井</span></div>
+            <p>上午先到川越老街，走在保留江戶時期藏造建築的黑瓦老街上感受「小江戶」風情；接著到群馬最大的觀光果園採蘋果，30分鐘吃到飽還能帶兩顆走。傍晚入住溫泉飯店，吃完自助餐後好好泡個湯，把白天的疲勞卸下來。</p>
+          </div>
+        </div>
+
+        <div class="day-card">
+          <div class="day-marker">03</div>
+          <div class="day-content">
+            <div class="day-date"><span data-day-offset="2"></span></div>
+            <h3>飯店 → 一之倉澤健走 → 谷川岳雙段纜車＋彩虹散步道 → 越後湯澤溫泉飯店</h3>
+            <div class="day-meta"><span>🍳 早餐：飯店內</span><span>🍱 午餐：日式料理</span><span>🍽️ 晚餐：飯店自助餐</span><span>🏨 (四星) Naspa 新大谷飯店</span></div>
+            <p>上午健走前往一之倉澤，來回約2小時、路況平緩，近距離仰望與劍岳、穗高岳齊名的巨大岩壁，秋天楓紅襯著絕壁格外好看。下午改搭纜車，先到天神平站再轉乘吊椅式小纜車上天神峠站，360度飽覽群山楓葉，最後沿彩虹散步道走回纜車站。晚上入住湯澤溫泉飯店，客房約37平方公尺，室內外溫泉開放到晚上10點。</p>
+          </div>
+        </div>
+
+        <div class="day-card">
+          <div class="day-marker">04</div>
+          <div class="day-content">
+            <div class="day-date"><span data-day-offset="3"></span></div>
+            <h3>飯店 → 苗場山龍纜車＋田代纜車 → 清津峽 → 清酒博物館・雁木通 → 越後湯澤溫泉飯店（傳統技藝＋抽獎晚會）</h3>
+            <div class="day-meta"><span>🍳 早餐：飯店內</span><span>🍱 午餐：苗場烤雞腿排＋自助吧</span><span>🍽️ 晚餐：飯店會席料理</span><span>🏨 (四星) Naspa 新大谷飯店</span></div>
+            <p>這天的重頭戲是兩段纜車：日本最長的苗場山龍纜車（5.5公里、25分鐘）連接苗場與田代高原，中途再轉乘田代纜車，居高臨下俯瞰二居湖與谷川岳。接著到清津峽，走進750公尺長的「光之隧道」藝術裝置，隧道盡頭的水鏡效果能同時映出峽谷與天空。回程可以到清酒博物館或雁木通商店街走走（品酒、購物需自費）。晚上續住湯澤溫泉飯店，吃會席料理、看傳統技藝表演，還有抽獎同樂晚會。</p>
+          </div>
+        </div>
+
+        <div class="day-card">
+          <div class="day-marker">05</div>
+          <div class="day-content">
+            <div class="day-date"><span data-day-offset="4"></span></div>
+            <h3>飯店 → 赤城山大沼・赤城神社 → 覺滿淵自然遊步道 → 小沼展望地 → 免稅店 → 東京市區飯店</h3>
+            <div class="day-meta"><span>🍳 早餐：飯店內</span><span>🍱 午餐：福豚之里涮涮鍋</span><span>🍽️ 晚餐：敬請自理</span><span>🏨 (四星) 東京巨蛋大飯店</span></div>
+            <p>上午到赤城山的火口湖「大沼」，湖畔赤城神社的朱紅神橋配上滿山楓葉很好拍照。接著走一段「覺滿淵」木棧道，這裡是海拔約1,360公尺的高山濕原，有「小尾瀨」之稱，繞一圈約30-40分鐘，老少都能輕鬆走完。之後到小沼展望地，天氣好時甚至能遠眺富士山。晚上入住東京市區飯店，附近有百貨和餐廳，晚餐可以自由選擇喜歡的東西吃。</p>
+          </div>
+        </div>
+
+        <div class="day-card">
+          <div class="day-marker">06</div>
+          <div class="day-content">
+            <div class="day-date"><span data-day-offset="5"></span></div>
+            <h3>飯店 → 小石川後樂園 → 東京成田機場 → 台北（桃園）機場</h3>
+            <div class="day-meta"><span>🍳 早餐：飯店內</span><span>🍱 午餐：機上套餐</span><span>🍽️ 晚餐：溫暖的家</span><span>🏨 溫暖的家</span></div>
+            <p>早上到小石川後樂園走走，這是東京現存最古老的庭園之一，園內圓月橋的水中倒影會合成一個圓形，是熱門拍照點，秋天楓葉也很有看頭（也可以選擇睡晚一點、飯店自由活動，等集合時間再出發）。中午搭車前往成田機場，下午班機直飛回桃園，結束六天的賞楓健走行程。</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="stay">
+    <div class="container">
+      <span class="eyebrow">Stay Plan</span>
+      <h2 class="section-title">住宿安排</h2>
+      <p class="section-lede">每晚都對應不同的節奏：機場過夜、溫泉旅館兩種風格、最後回東京市區。</p>
+      <div class="stay-grid">
+        <div class="stay-card">
+          <div class="stay-card__nights">第1晚</div>
+          <h3>馬羅德國際飯店</h3>
+          <p>成田機場附近，方便隔天一早出發，飯店內享用自助式晚餐。</p>
+          <a class="maplink" data-mapq="マロウドインターナショナルホテル成田">在地圖上看看</a>
+        </div>
+        <div class="stay-card">
+          <div class="stay-card__nights">第2晚</div>
+          <h3>苗場王子大飯店 或 源泉湯の宿 松乃井</h3>
+          <p>水上・苗場溫泉區，滑雪度假村或人氣溫泉旅館二選一，晚餐吃得到鮪魚壽司或上州牛料理。</p>
+          <a class="maplink" data-mapq="苗場プリンスホテル">在地圖上看看</a>
+        </div>
+        <div class="stay-card">
+          <div class="stay-card__nights">第3・4晚</div>
+          <h3>(四星) Naspa 新大谷飯店</h3>
+          <p>越後湯澤溫泉，連住兩晚，客房約37平方公尺，室內外溫泉全天開放至晚上10點，晚餐可吃到雪蟹吃到飽。</p>
+          <a class="maplink" data-mapq="NASPA New Otani 越後湯沢">在地圖上看看</a>
+        </div>
+        <div class="stay-card">
+          <div class="stay-card__nights">第5晚</div>
+          <h3>(四星) 東京巨蛋大飯店</h3>
+          <p>東京市區，鄰近百貨和餐廳，方便晚餐自由選擇、順道逛逛街。</p>
+          <a class="maplink" data-mapq="東京ドームホテル">在地圖上看看</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="flight">
+    <div class="container">
+      <span class="eyebrow">Flight & Route</span>
+      <h2 class="section-title">航班資訊</h2>
+      <div class="flight-grid">
+        <div class="flight-card">
+          <div class="flight-card__label">去程・第1天</div>
+          <div class="flight-route">桃園 <span class="arrow">✈</span> 成田</div>
+          <div class="flight-sub">國泰航空 CX450　13:00 起飛 → 17:10 抵達</div>
+        </div>
+        <div class="flight-card">
+          <div class="flight-card__label">回程・第6天</div>
+          <div class="flight-route">成田 <span class="arrow">✈</span> 桃園</div>
+          <div class="flight-sub">國泰航空 CX451　15:30 起飛 → 18:40 抵達</div>
+        </div>
+      </div>
+      <p class="section-lede" style="margin-top:18px;">實際航班與時間如遇航空公司異動，將以行前說明會資料為準。</p>
+    </div>
+  </section>
+
+  <section id="cost">
+    <div class="container">
+      <span class="eyebrow">Budget</span>
+      <h2 class="section-title">費用說明</h2>
+      <div class="price-box">
+        <div class="amount">NT$56,980 / 人</div>
+        <div class="note">10/12（一）出發，大人團費。實際金額仍以繳費收據與確認單為準。</div>
+      </div>
+      <ul class="cost-list">
+        <li><span>單人房差</span><span>NT$12,000 / 人</span></li>
+        <li><span>小孩不佔床（2～未滿12歲）</span><span>扣 NT$4,000</span></li>
+        <li><span>領隊司機服務費</span><span>NT$1,800 / 人（6日）</span></li>
+      </ul>
+      <div class="incl-grid">
+        <div>
+          <h4>費用包含</h4>
+          <ul>
+            <li>來回經濟艙機票、機場稅、燃油附加費</li>
+            <li>全程住宿及表列餐食</li>
+            <li>行程所列交通與景點門票</li>
+            <li>500萬旅遊業責任險＋20萬意外醫療險</li>
+            <li>500萬旅行平安險＋20萬醫療險（依年齡調整投保額度）</li>
+          </ul>
+        </div>
+        <div>
+          <h4>費用不含</h4>
+          <ul>
+            <li>個人護照費用</li>
+            <li>行李超重、飲料酒類、洗衣、電話等私人消費</li>
+            <li>自選行程與自費活動（如清酒博物館試飲）</li>
+          </ul>
+        </div>
+      </div>
+      <div class="gift-box">
+        🎁 報名贈品：出團即贈 LA NEW 運動鞋一雙（或 NT$2,000 商品兌換券，二選一）；每人再送日本 WiFi 網卡一張（每日1GB）。
+      </div>
+    </div>
+  </section>
+
+  <section id="notes">
+    <div class="container">
+      <span class="eyebrow">Good to Know</span>
+      <h2 class="section-title">貼心提醒</h2>
+      <ul class="note-list">
+        <li><span class="n-ic">🛂</span><span>護照效期需從回國日算起還有 6 個月以上，出發前請確認清楚。</span></li>
+        <li><span class="n-ic">👥</span><span>此團規定年滿70歲以上，若無同行家人或朋友，無法單獨報名參團。</span></li>
+        <li><span class="n-ic">🔗</span><span>行程為團進團出，中途無法脫隊、不可延回或退票。</span></li>
+        <li><span class="n-ic">🍁</span><span>楓葉轉紅速度會因氣候而提前或延後，若當年未轉紅，仍會依原行程前往景點遊覽。</span></li>
+        <li><span class="n-ic">🚌</span><span>依日本法規，遊覽車司機每日行車時間不得超過10小時，行程時間會以此為準安排。</span></li>
+        <li><span class="n-ic">🛏️</span><span>團體房型無法指定大床或加床，若飯店無法提供三人房，會改以雙人房加單人房安排。</span></li>
+        <li><span class="n-ic">🥗</span><span>日式素食習慣與台灣不同（常見蔥薑蒜蛋奶），素食旅客建議自備即食食品備用。</span></li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <div class="foot-title">谷川岳・苗場賞楓大健走</div>
+    <p>那米哥國際旅行社・團號 NRT6C・6天5夜</p>
+    <p>此頁面依官方行程整理而成，正式日期、價格與內容以行前說明會及確認單為準。</p>
+    <p><a href="https://www.lamigo.com.tw/products/group/mold-new/NRT6C" target="_blank" rel="noopener">查看那米哥官方行程頁面 →</a></p>
+  </div>
+</footer>
+
+<script>
+  // 出發日期：2026/10/12（一）
+  const TRIP_START_DATE = '2026-10-12';
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const weekdays = ['日','一','二','三','四','五','六'];
+    const start = new Date(TRIP_START_DATE + 'T00:00:00');
+    document.querySelectorAll('[data-day-offset]').forEach(el => {
+      const offset = parseInt(el.getAttribute('data-day-offset'), 10) || 0;
+      const d = new Date(start);
+      d.setDate(d.getDate() + offset);
+      const m = d.getMonth() + 1;
+      const day = d.getDate();
+      const wd = weekdays[d.getDay()];
+      el.textContent = `${m}/${day}（${wd}）`;
+    });
+
+    document.querySelectorAll('[data-mapq]').forEach(el => {
+      const q = el.getAttribute('data-mapq');
+      el.href = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(q);
+      el.target = '_blank';
+      el.rel = 'noopener';
+    });
+  });
+</script>
+
+</body>
+</html>
